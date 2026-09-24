@@ -1,4 +1,4 @@
-# conexion.py - PARTE 1
+# Importamos modulos de conexion
 import mysql.connector
 from mysql.connector import Error
 
