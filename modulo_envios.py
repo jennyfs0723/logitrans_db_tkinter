@@ -95,7 +95,7 @@ class ModuloEnvios:
         self.cargar_miniatura_pillow(self.ruta_foto_guia)
 
         # Creacion de boton para cargar imagen
-        self.btn_cargar_img = tk.Button(self.lf_envio, text="Imagen", command=self.buscar_imagen_disco,
+        self.btn_cargar_img = tk.Button(self.lf_envio, text="Cargar Foto", command=self.buscar_imagen_disco,
                                         font=("Arial", 9, "bold"), bg="#95A5A6")
         self.btn_cargar_img.grid(row=4, column=2, padx=15, sticky="ew")
 

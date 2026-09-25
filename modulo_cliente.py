@@ -381,7 +381,6 @@ class ModuloCliente:
         c.setFont("Helvetica-Oblique", 9)
         c.drawString(50, 735, f"Filtro Automático de Cuenta: {filtro_tipo}  |  Auditoría: Jenny Florez")
         c.line(50, 725, 550, 725)
-
         y = 695
         c.setFont("Helvetica", 10)
         for i in range(self.listbox_clientes.size()):
