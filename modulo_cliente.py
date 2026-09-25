@@ -80,7 +80,7 @@ class ModuloCliente:
         self.actualizar_miniatura_foto(self.ruta_imagen_cargada) # aqui ponemos la imagen que cargamos en el __init__
 
         # aqui incluimos el boton para gestion de imagenes
-        self.btn_cargar_foto = tk.Button(self.lf_formulario, text="📸 Cargar Foto",
+        self.btn_cargar_foto = tk.Button(self.lf_formulario, text="Cargar Foto",
                                          command=self.seleccionar_imagen_disco, font=("Arial", 9, "bold"), bg="#95A5A6")
         self.btn_cargar_foto.grid(row=4, column=2, padx=15, sticky="ew")
 
